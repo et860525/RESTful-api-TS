@@ -1,5 +1,29 @@
-http://localhost:3000/
+GET http://localhost:3000/posts
 
 ###
 
-http://localhost:3000/30
+GET http://localhost:3000/posts/62a9c9b952aac992d601eb32
+
+###
+
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{
+	"title": "Use Express+TS",
+	"body": "Post Content"
+}
+
+###
+
+PATCH http://localhost:3000/posts/62b083fc609bcddd1be88edc
+Content-Type: application/json
+
+{
+  "title": "Update Express+TS",
+	"body": "PPPP"
+}
+
+### 
+
+DELETE http://localhost:3000/posts/62b083fc609bcddd1be88edc

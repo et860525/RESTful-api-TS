@@ -1,0 +1,8 @@
+{
+  "verbose": true,
+  "watch": ["src/**/*.ts"],
+  "ext": ".ts, .js",
+  "ignore": [],
+  "exec": "ts-node --files ./src/index.ts",
+  "legacyWatch": true
+}
